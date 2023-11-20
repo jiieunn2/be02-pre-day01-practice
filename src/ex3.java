@@ -43,13 +43,7 @@ public class ex3 {
          ----------
          */
 
-        for (int i = 0; i < 6; i++) {
-            for (int j = 5; j > 0; j--) {
-                if (i < j) {
-                    System.out.println(" ");
-                } else
-                    System.out.print("*");
-
+        
 
             }
 
