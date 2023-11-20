@@ -24,13 +24,12 @@ public class ex3 {
          *****
         ----------
          */
-        for (int i = 0; i < 6; i++) {
-            for (int j = 5; j > 0; j--) {
-                if (i < j) {
-                    System.out.print(" ");
-                } else
-                    System.out.print("*");
-
+         for (int i = 1; i < 6; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
         // 3. 다음과 같이 삼각형을 출력하는 코드 작성
         /*
